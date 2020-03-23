@@ -1,0 +1,39 @@
+.container{
+    /* position: center; */
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #666;
+    background: #fcfcfc;
+  }
+  
+
+body{ 
+    margin: 20px;
+    background: rgba(103, 128, 159, 1);
+    font-size: small;
+    font-family: Tahoma, Arial, “Trebuchet MS”, Helvetica, sans-serif;
+    text-align: left;
+  }
+
+.title{
+    /* position: relative; */
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+a:link{
+   color: green
+}
+
+a:hover{
+    color: rgb(155, 164, 155)
+}
+a:visited{
+    color: green
+}
+a:active{
+    color: rgb(165, 84, 84)
+}
