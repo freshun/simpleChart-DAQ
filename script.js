@@ -40,6 +40,7 @@ let lineChart = new Chart(ctx, {
     data: {
     labels: years,
         datasets: [{
+            lineTension: 0, 
             data: price,
             label: 'Nasdaq',
             backgroundColor: 'rgba(63, 195, 128, 0.2)',
